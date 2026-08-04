@@ -1,54 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Noh Sung Been — Backend and AI Systems Builder</title>
-  <desc id="desc">A light technical banner connecting backend, AI systems, and product delivery with a waveform-inspired system diagram.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Sungbeen!</title>
+  <desc id="desc">A playful pastel student developer banner connecting ski, campus, sound, and AI project motifs.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset="1" stop-color="#e8f7f5"/>
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="0.48" stop-color="#fdf2f8"/>
+      <stop offset="1" stop-color="#eef2ff"/>
     </linearGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0f766e"/>
-      <stop offset="0.52" stop-color="#0891b2"/>
-      <stop offset="1" stop-color="#2563eb"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#0f172a" stroke-opacity="0.055"/>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#7c3aed" opacity="0.11"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0f766e" flood-opacity="0.14"/>
-    </filter>
   </defs>
-  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#bg)" stroke="#0f766e" stroke-opacity="0.22"/>
-  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#grid)"/>
-  <g opacity="0.16">
-    <circle cx="1080" cy="62" r="118" fill="#2dd4bf"/>
-    <circle cx="1140" cy="270" r="150" fill="#60a5fa"/>
-  </g>
-  <g transform="translate(62 58)">
-    <text x="0" y="24" fill="#0f766e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700" letter-spacing="3">SYSTEM / SUNGKONG00</text>
-    <text x="0" y="91" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="750">NOH SUNG BEEN</text>
-    <text x="2" y="132" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="500">Backend &amp; AI Systems Builder</text>
-    <g transform="translate(0 164)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="650">
-      <rect width="118" height="36" rx="18" fill="#ccfbf1" stroke="#5eead4"/>
-      <text x="59" y="23" text-anchor="middle" fill="#115e59">BACKEND</text>
-      <rect x="130" width="126" height="36" rx="18" fill="#cffafe" stroke="#67e8f9"/>
-      <text x="193" y="23" text-anchor="middle" fill="#155e75">AI SYSTEMS</text>
-      <rect x="268" width="126" height="36" rx="18" fill="#dbeafe" stroke="#93c5fd"/>
-      <text x="331" y="23" text-anchor="middle" fill="#1e40af">PRODUCT</text>
+
+  <rect x="1" y="1" width="1198" height="358" rx="34" fill="url(#bg)" stroke="#c4b5fd"/>
+  <rect x="1" y="1" width="1198" height="358" rx="34" fill="url(#dots)"/>
+
+  <g transform="translate(64 70)">
+    <text x="0" y="26" fill="#7c3aed" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" letter-spacing="3">HELLO, I'M</text>
+    <text x="0" y="102" fill="#2e1065" font-family="'Trebuchet MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800">Sungbeen!</text>
+    <text x="2" y="148" fill="#6b21a8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="600">Connecting backend, AI, and curious side quests.</text>
+
+    <g transform="translate(0 184)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">
+      <rect width="112" height="38" rx="19" fill="#ede9fe" stroke="#a78bfa"/>
+      <text x="56" y="24" text-anchor="middle" fill="#6d28d9">BACKEND</text>
+      <rect x="124" width="78" height="38" rx="19" fill="#fce7f3" stroke="#f9a8d4"/>
+      <text x="163" y="24" text-anchor="middle" fill="#be185d">AI</text>
+      <rect x="214" width="150" height="38" rx="19" fill="#dbeafe" stroke="#93c5fd"/>
+      <text x="289" y="24" text-anchor="middle" fill="#1d4ed8">SIDE QUESTS</text>
     </g>
   </g>
-  <g>
-    <rect x="748" y="60" width="382" height="200" rx="22" fill="#ffffff" fill-opacity="0.82" stroke="#0f766e" stroke-opacity="0.2"/>
-    <text x="772" y="94" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">RELIABLE SIGNAL FLOW</text>
-    <path d="M780 172H820L836 138L858 214L880 156L900 184L922 128L946 210L968 160L992 172H1098" fill="none" stroke="url(#signal)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <g fill="#ffffff" stroke="#0f766e" stroke-width="3">
-      <circle cx="780" cy="172" r="9"/>
-      <circle cx="1098" cy="172" r="9"/>
-    </g>
-    <g fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="650">
-      <text x="770" y="234">INPUT</text>
-      <text x="899" y="234">VERIFY</text>
-      <text x="1069" y="234">SHIP</text>
-    </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <text x="772" y="72" fill="#7c3aed" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="2">MY PROJECT ORBIT</text>
+    <path d="M823 166C866 101 952 97 1004 151C1055 204 1078 259 1017 277C956 295 884 284 846 231" fill="none" stroke="#c4b5fd" stroke-width="3" stroke-dasharray="5 10"/>
+
+    <circle cx="823" cy="170" r="48" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+    <path d="M789 187l27-43 14 20 10-14 22 37Z" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+    <path d="M810 153l6-9 7 10M796 195c17-13 33-4 44 9" fill="none" stroke="#fb7185" stroke-width="3"/>
+    <text x="823" y="235" text-anchor="middle" fill="#1d4ed8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">SSING</text>
+
+    <circle cx="1005" cy="158" r="46" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <path d="M974 153h62l-31-22-31 22Zm7 8v25m16-25v25m16-25v25m16-25v25m-53 0h58" fill="none" stroke="#b45309" stroke-width="3"/>
+    <text x="1005" y="221" text-anchor="middle" fill="#92400e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">CAMPUS</text>
+
+    <circle cx="892" cy="276" r="39" fill="#fce7f3" stroke="#f472b6" stroke-width="2"/>
+    <path d="M868 276h7l5-15 8 30 8-39 8 48 7-24h8" fill="none" stroke="#db2777" stroke-width="3"/>
+    <text x="892" y="332" text-anchor="middle" fill="#be185d" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">SOUND</text>
+
+    <circle cx="1054" cy="274" r="39" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="2"/>
+    <path d="M1054 245v-7m-4 0h8m-22 19h36v29h-36Zm8 29v8m20-8v8" fill="none" stroke="#0f766e" stroke-width="3"/>
+    <circle cx="1046" cy="270" r="3" fill="#0f766e"/><circle cx="1062" cy="270" r="3" fill="#0f766e"/>
+    <path d="M1045 279c6 5 12 5 18 0" fill="none" stroke="#0f766e" stroke-width="2"/>
+    <text x="1054" y="331" text-anchor="middle" fill="#0f766e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">AI LAB</text>
   </g>
 </svg>
