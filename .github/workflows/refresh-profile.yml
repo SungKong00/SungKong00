@@ -42,19 +42,17 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Generate contribution snake
-        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0, pinned
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            assets/generated/github-snake.svg?color_snake=#7C3AED&color_dots=#F5F3FF,#DDD6FE,#C4B5FD,#8B5CF6,#6D28D9
-            assets/generated/github-snake-dark.svg?color_snake=#5EEAD4&color_dots=#211634,#3B2B5C,#5B3F8C,#7C3AED,#A78BFA
+      - name: Generate 3D contribution garden
+        uses: yoshi389111/github-profile-3d-contrib@9e3f937195cf840d364388973f73e3c4b3753586 # v0.9.3 lineage, pinned
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
       - name: Commit refreshed visuals
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/generated/github-stats-light.svg assets/generated/github-stats-dark.svg assets/generated/github-snake.svg assets/generated/github-snake-dark.svg
+          git add assets/generated/github-stats-light.svg assets/generated/github-stats-dark.svg profile-3d-contrib/
           if git diff --cached --quiet; then
             echo "Profile visuals are already current."
             exit 0
