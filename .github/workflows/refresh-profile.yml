@@ -27,7 +27,7 @@ jobs:
         with:
           card: stats
           core_version: 2.1.5
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=true&theme=default
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=true&disable_animations=true&theme=default
           path: assets/generated/github-stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
@@ -37,7 +37,7 @@ jobs:
         with:
           card: stats
           core_version: 2.1.5
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=true&theme=github_dark
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=true&disable_animations=true&theme=github_dark
           path: assets/generated/github-stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
