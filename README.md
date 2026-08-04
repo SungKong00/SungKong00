@@ -112,11 +112,15 @@ Understand the real constraint
 
 ## GitHub activity
 
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/github-stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/generated/github-stats-light.svg">
-  <img alt="Public GitHub activity snapshot for SungKong00" src="./assets/generated/github-stats-light.svg" width="100%">
+  <img alt="Public GitHub activity snapshot for SungKong00" src="./assets/generated/github-stats-light.svg" width="420">
 </picture>
+
+</div>
 
 <details>
 <summary><strong>3D contribution garden</strong></summary>
