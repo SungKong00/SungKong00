@@ -73,9 +73,9 @@
 ## Tech Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,ts,react,postgres,mysql&amp;theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,ts,react,postgres,mysql&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,react,postgres,mysql&amp;theme=light" alt="Java, Spring, TypeScript, React, PostgreSQL, MySQL" height="48">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cts%2Creact%2Cpostgres%2Cmysql&amp;theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cts%2Creact%2Cpostgres%2Cmysql&amp;theme=light">
+  <img src="https://skillicons.dev/icons?i=java%2Cspring%2Cts%2Creact%2Cpostgres%2Cmysql&amp;theme=light" alt="Java, Spring, TypeScript, React, PostgreSQL, MySQL" height="48">
 </picture>
 
 Java · Spring Boot · TypeScript · React · PostgreSQL · MySQL
